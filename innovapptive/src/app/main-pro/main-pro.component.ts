@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+// import { AppComponent } from '../app.component';
 
 @Component({
   selector: 'app-main-pro',
@@ -8,5 +9,8 @@ import { Component } from '@angular/core';
   styleUrl: './main-pro.component.css'
 })
 export class MainProComponent {
-
+  imageElement: HTMLImageElement = new Image();
+    constructor() {
+        this.imageElement.src = 'innovapptive/src/assets/images/my-image.jpg';
+    }
 }

@@ -4,6 +4,8 @@ import { HeaderComponent } from './header/header.component';
 import { LogoComponent } from './logo/logo.component';
 import { MainProComponent } from './main-pro/main-pro.component';
 import { MainBodyComponent } from './main-body/main-body.component';
+import { myData } from './shared/data';
+
 
 @Component({
   selector: 'app-root',
@@ -13,6 +15,6 @@ import { MainBodyComponent } from './main-body/main-body.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'innovapptive';
-  // imageUrl: string = 'innovapptive/src/assets/images/my-image.jpg';
+  // imageUrl: string = "innovapptive/src/assets/images/my-image.jpg";
+  // data = myData;
 }
