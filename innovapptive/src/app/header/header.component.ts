@@ -1,15 +1,15 @@
 import { Component } from '@angular/core';
+import { MainProComponent } from '../main-pro/main-pro.component';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [],
+  imports: [MainProComponent],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
   isSettingsMenuOpen: boolean = false;
-  profileIconUrl: string = 'https://i.postimg.cc/cHg22LhR/profile-pic.png';
 
   settingsMenuToggle(): void {
     this.isSettingsMenuOpen = !this.isSettingsMenuOpen;

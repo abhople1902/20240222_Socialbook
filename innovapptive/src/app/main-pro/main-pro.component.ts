@@ -9,8 +9,5 @@ import { Component } from '@angular/core';
   styleUrl: './main-pro.component.css'
 })
 export class MainProComponent {
-  imageElement: HTMLImageElement = new Image();
-    constructor() {
-        this.imageElement.src = 'innovapptive/src/assets/images/my-image.jpg';
-    }
+  profileIconUrl: string = 'https://i.postimg.cc/ZqH57YHq/temp-Imagen1ry-HU.avif';
 }
