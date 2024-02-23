@@ -9,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrl: './main-pro.component.css'
 })
 export class MainProComponent {
-  profileIconUrl: string = 'https://i.postimg.cc/ZqH57YHq/temp-Imagen1ry-HU.avif';
+  profileIconUrl: string = 'https://w7.pngwing.com/pngs/987/738/png-transparent-narendra-modi-thumbnail.png';
 }
