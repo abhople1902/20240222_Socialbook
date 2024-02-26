@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './middlebody.component.css'
 })
 export class MiddlebodyComponent {
-
+name = "John Doe"
 }
